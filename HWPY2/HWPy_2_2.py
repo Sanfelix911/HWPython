@@ -21,3 +21,4 @@ for x1 in range(1, 1001):
             break
     if ((x1 + y1) == s) and ((x1 * y1) == p):
         break
+
