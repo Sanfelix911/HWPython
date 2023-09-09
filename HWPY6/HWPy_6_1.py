@@ -15,7 +15,7 @@ step = int(input('Введите значение шага прогресии :'
 numb_elements = int(input('Введите количество элементов прогресии :'))
 print(f'Первый элемент {first_element} / Шаг прогрессии {step} / Количество элементов {numb_elements}')
 
-print(progression(first_element,step,numb_elements))
+print(*(progression(first_element,step,numb_elements)))
 
 
     
